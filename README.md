@@ -8,7 +8,7 @@ It adds a floating button near the input fields, which can be clicked to replace
 ## 💾 Installation
 To install ChatGPT Everywhere, follow these steps:
 
-1. Download the plugin from GitHub 🐙
+1. [Download](https://github.com/VaibhavAcharya/ChatGPT-Everywhere/archive/refs/heads/main.zip) the plugin from GitHub 🐙
 2. Unpack the zip 📦
 3. Open the `content-script.js` file and replace YOUR_API_KEY_HERE with your actual API key from OpenAI 🔑
 4. Go to the Chrome extensions page [chrome://extensions/](chrome://extensions/) 📁
