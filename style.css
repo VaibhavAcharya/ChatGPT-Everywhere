@@ -1,0 +1,35 @@
+.floating-button {
+  all: unset;
+
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 9999;
+
+  cursor: pointer;
+
+  border: 1px dashed white;
+  border-radius: 9999px;
+
+  padding: 9px;
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 16px;
+  line-height: 0;
+  font-weight: 700;
+
+  background-color: black;
+  color: rgb(59, 130, 246);
+
+  opacity: 0.8;
+}
+
+.floating-button:hover {
+  opacity: 1;
+}
+
+.floating-button:disabled {
+  pointer-events: none;
+  cursor: wait;
+
+  color: white;
+}

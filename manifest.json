@@ -1,0 +1,16 @@
+{
+  "name": "ChatGPT Everywhere",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "A Chrome plugin that leverages the OpenAI API to replace the text in input fields on any webpage.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
